@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 class Wall:
     armor = 10
     height = 5
