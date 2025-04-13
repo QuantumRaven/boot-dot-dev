@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 class Human:
     def __init__(self, pos_x, pos_y, speed):
         self.__pos_x = pos_x

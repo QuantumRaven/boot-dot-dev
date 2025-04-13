@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from l4_sprint import *
+
 run_cases = [
     ((0, 0, 5, 3), ["sprint_right"], (10, 0, None)),
     (
