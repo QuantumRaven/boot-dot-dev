@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 def main():
     brawler_aragorn = Brawler("Aragorn", 4, 4)
     brawler_gimli = Brawler("Gimli", 2, 7)
@@ -8,7 +9,6 @@ def main():
 
     fight(brawler_aragorn, brawler_gimli)
     fight(brawler_legolas, brawler_frodo)
-
 
 
 # don't touch below this line
@@ -35,4 +35,3 @@ def fight(f1, f2):
 
 
 main()
-

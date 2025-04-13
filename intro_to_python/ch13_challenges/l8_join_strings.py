@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 def join_strings(strings):
     result = ""
     for i in range(len(strings)):

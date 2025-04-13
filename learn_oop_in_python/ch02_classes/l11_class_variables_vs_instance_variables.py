@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 class Dragon:
     def __init__(self, element):
         self.element = element
@@ -29,5 +30,3 @@ def main():
 
 
 main()
-
-

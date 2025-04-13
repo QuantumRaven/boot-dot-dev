@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 class Wizard:
     def __init__(self, name, stamina, intelligence):
         self.name = name
@@ -28,4 +29,3 @@ class Wizard:
     def drink_mana_potion(self, potion_mana):
         potion_mana += self.__intelligence
         self.mana += potion_mana
-
