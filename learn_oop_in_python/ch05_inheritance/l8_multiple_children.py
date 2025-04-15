@@ -18,7 +18,7 @@ class Hero:
 # don't touch above this line
 
 
-class Archer:
+class Archer(Hero):
     def __init__(self, name, health, num_arrows):
         pass
 
