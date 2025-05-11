@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 def main():
     dragons = [
         Dragon("Green Dragon", 0, 0, 1),
@@ -10,7 +11,13 @@ def main():
 
     # don't touch above this line
 
-    # ?
+    for dragon in dragons:
+        describe(dragon)
+
+    
+    for dragon in range(len(dragons)):
+        other_dragons = dragons.copy()
+        del other_dragons[dragon]
 
 
 # don't touch below this line
@@ -56,4 +63,3 @@ class Dragon(Unit):
 
 
 main()
-
