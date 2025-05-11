@@ -16,8 +16,10 @@ def main():
 
     
     for dragon in range(len(dragons)):
+        current_dragon = dragons[dragon]
         other_dragons = dragons.copy()
         del other_dragons[dragon]
+        current_dragon.breathe_fire(3, 3, other_dragons)
 
 
 # don't touch below this line
