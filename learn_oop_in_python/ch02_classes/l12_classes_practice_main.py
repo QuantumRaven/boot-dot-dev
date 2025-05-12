@@ -2,15 +2,17 @@
 
 class Book:
     def __init__(self, title, author):
-        pass
+        self.title = title
+        self.author = author
 
 
 class Library:
     def __init__(self, name):
-        pass
+        self.name = name
 
     def add_book(self, book):
-        pass
+        self.books = book
+        books[] = book
 
     def remove_book(self, book):
         pass
