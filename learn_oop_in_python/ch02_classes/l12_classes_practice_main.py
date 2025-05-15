@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 class Book:
     def __init__(self, title, author):
         self.title = title
@@ -9,14 +10,16 @@ class Book:
 class Library:
     def __init__(self, name):
         self.name = name
+        self.books = []
 
     def add_book(self, book):
-        self.books = book
-        books[] = book
+        self.books.append(book)
 
     def remove_book(self, book):
-        pass
+        for lib_book in self.books:
+            if lib_book.title == book.title and lib_book.author == book.author:
+                self.books.remove(lib_book)
+                break
 
     def search_books(self, search_string):
-        pass
-
+        self.search_string(book)
