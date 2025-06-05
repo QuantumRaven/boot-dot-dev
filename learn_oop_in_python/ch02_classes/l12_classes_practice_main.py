@@ -22,4 +22,11 @@ class Library:
                 break
 
     def search_books(self, search_string):
-        self.search_string(book)
+        results = []
+        for book in self.books:
+            if (
+                search_string.lower() in book.title.lower()
+                or search_string.lower() in book.author.lower()
+            ):
+                results.append(book)
+        return results
