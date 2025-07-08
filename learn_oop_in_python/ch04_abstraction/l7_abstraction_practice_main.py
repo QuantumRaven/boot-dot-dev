@@ -22,7 +22,7 @@ class DeckOfCards:
     ]
 
     def __init__(self):
-        pass
+        .__cards
 
     def create_deck(self):
         pass
