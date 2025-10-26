@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from main import *
+from l3_overlap import *
 
 run_cases = [
     (Rectangle(0, 0, 4, 4), Rectangle(3, 3, 6, 6), True),
